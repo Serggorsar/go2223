@@ -15,4 +15,6 @@
 Можете ставить самую свежую версию. Обратите внимание, что может понадобиться создание/модицификация файла go.mod и ошибки, связанные с ним.
 
 ## Литература
-Для начала https://github.com/go-park-mail-ru/lectures/blob/master/1-basics/readme.md
+Для 1-2 лекций https://github.com/go-park-mail-ru/lectures/blob/master/1-basics/readme.md
+
+Для 3 лекции https://github.com/go-park-mail-ru/lectures/blob/master/2-async/readings_2.md
