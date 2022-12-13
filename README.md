@@ -18,3 +18,5 @@
 Для 1-2 лекций https://github.com/go-park-mail-ru/lectures/blob/master/1-basics/readme.md
 
 Для 3 лекции https://github.com/go-park-mail-ru/lectures/blob/master/2-async/readings_2.md
+
+Слайды к лекции 12.12.2022 https://docs.google.com/presentation/d/1w2cswAtfbOHDQoDtE1LXthiGb_fMBtVvkPhSuY3YarI/edit?usp=sharing
