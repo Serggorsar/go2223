@@ -20,17 +20,19 @@
 ```
 $ go test -bench . -benchmem
 
-goos: windows
+goos: darwin
 
-goarch: amd64
+goarch: arm64
 
-BenchmarkSlow-8 10 142703250 ns/op 336887900 B/op 284175 allocs/op
+pkg: hw3_bench
 
-BenchmarkSolution-8 500 2782432 ns/op 559910 B/op 10422 allocs/op
+BenchmarkSlow-8               60          20242046 ns/op        20229997 B/op     189840 allocs/op
+
+BenchmarkFast-8              967           1207100 ns/op          488840 B/op       6169 allocs/op
 
 PASS
 
-ok hw3 3.897s
+ok      hw3_bench       2.673s
 ```
 
 Запуск:
