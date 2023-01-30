@@ -147,7 +147,7 @@ func (h *Handler) Delete(w http.ResponseWriter, r *http.Request) {
 func main() {
 
 	// основные настройки к базе
-	dsn := "root@tcp(localhost:3306)/coursera?"
+	dsn := "root:12345678@tcp(localhost:3306)/mysql?"
 	// указываем кодировку
 	dsn += "&charset=utf8"
 	// отказываемся от prapared statements

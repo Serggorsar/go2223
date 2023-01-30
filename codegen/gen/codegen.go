@@ -118,7 +118,6 @@ func main() {
 
 			fmt.Fprintln(out, "	return nil")
 			fmt.Fprintln(out, "}") // end of Unpack func
-			fmt.Fprintln(out)      // empty line
 
 		}
 	}
