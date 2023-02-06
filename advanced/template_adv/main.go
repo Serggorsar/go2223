@@ -12,8 +12,8 @@ import (
 //go:generate hero -source=./template/
 
 var ExampleItems = []*item.Item{
-	&item.Item{1, "rvasily", "Mail.ru Group"},
-	&item.Item{2, "username", "freelancer"},
+	{1, "rvasily", "Mail.ru Group"},
+	{2, "username", "freelancer"},
 }
 
 func main() {

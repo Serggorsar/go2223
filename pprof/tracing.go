@@ -4,10 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"time"
-	"runtime"
-	"encoding/json"
 	_ "net/http/pprof"
+	"runtime"
 	"time"
 )
 

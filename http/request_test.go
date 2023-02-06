@@ -27,12 +27,12 @@ func GetUser(w http.ResponseWriter, r *http.Request) {
 
 func TestGetUser(t *testing.T) {
 	cases := []TestCase{
-		TestCase{
+		{
 			ID:         "42",
 			Response:   `{"status": 200, "resp": {"user": 42}}`,
 			StatusCode: http.StatusOK,
 		},
-		TestCase{
+		{
 			ID:         "500",
 			Response:   `{"status": 500, "err": "db_error"}`,
 			StatusCode: http.StatusInternalServerError,

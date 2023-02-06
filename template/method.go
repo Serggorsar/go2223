@@ -28,9 +28,9 @@ func main() {
 	}
 
 	users := []User{
-		User{1, "Vasily", true},
-		User{2, "Ivan", false},
-		User{3, "Dmitry", true},
+		{1, "Vasily", true},
+		{2, "Ivan", false},
+		{3, "Dmitry", true},
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {

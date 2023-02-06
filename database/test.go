@@ -20,11 +20,11 @@ func getData() interface{} {
 	// return Item{"1", "1"}
 	return &RSS{
 		Items: []Item{
-			Item{"1", "1"},
-			Item{"2", "2"},
-			Item{"3", "3"},
-			Item{"4", "4"},
-			Item{"5", "5"},
+			{"1", "1"},
+			{"2", "2"},
+			{"3", "3"},
+			{"4", "4"},
+			{"5", "5"},
 		},
 	}
 }

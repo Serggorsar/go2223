@@ -91,7 +91,7 @@ func main() {
 	http.ListenAndServe(":8080", nil)
 }
 
-//PanicOnErr panics on error
+// PanicOnErr panics on error
 func PanicOnErr(err error) {
 	if err != nil {
 		panic(err)

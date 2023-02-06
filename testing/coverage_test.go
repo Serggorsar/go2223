@@ -13,9 +13,9 @@ type TestCase struct {
 
 func TestGetUser(t *testing.T) {
 	cases := []TestCase{
-		TestCase{"ok", &User{ID: 27}, false},
+		{"ok", &User{ID: 27}, false},
 		// TestCase{"fail", nil, true},
-		TestCase{"not_exist", nil, true},
+		{"not_exist", nil, true},
 	}
 
 	for caseNum, item := range cases {

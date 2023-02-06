@@ -17,7 +17,7 @@ func main() {
 	http.HandleFunc("/", handler)
 
 	staticHandler := http.StripPrefix(
-		"/data/", 
+		"/data/",
 		http.FileServer(http.Dir("./static")),
 	)
 	http.Handle("/data/", staticHandler)

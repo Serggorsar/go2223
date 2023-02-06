@@ -16,9 +16,9 @@ func main() {
 	tmpl := template.Must(template.ParseFiles("users.html"))
 
 	users := []User{
-		User{1, "Vasily", true},
-		User{2, "<i>Ivan</i>", false},
-		User{3, "Dmitry", true},
+		{1, "Vasily", true},
+		{2, "<i>Ivan</i>", false},
+		{3, "Dmitry", true},
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
