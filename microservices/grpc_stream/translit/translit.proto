@@ -1,8 +1,13 @@
 syntax = "proto3";
 
 // protoc --go_out=plugins=grpc:. *.proto
+// для нового протобуфа:
+// protoc --go_out=. --go-grpc_out=require_unimplemented_servers=false:. *.proto
 
 package translit;
+
+// для нового протобуфа
+option go_package = "../translit";
 
 message Word {
   string Word = 1;
