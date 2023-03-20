@@ -24,7 +24,7 @@ func printResultGolang(result C.int) {
 }
 
 /*
-	переходы менжу рантаймами:
+	переходы между рантаймами:
 	go - main
 	cgo - Multiply
 	go - printResultGolang

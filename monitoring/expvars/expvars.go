@@ -31,6 +31,7 @@ func init() {
 func main() {
 	http.HandleFunc("/", handler)
 
+	// localhost:8081/debug/vars
 	fmt.Println("starting server at :8081")
 	http.ListenAndServe(":8081", nil)
 }

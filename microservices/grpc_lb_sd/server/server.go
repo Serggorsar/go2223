@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
+	"grpc_lb_sd/session"
 	"log"
-	"microservices/grpc/session"
 	"net"
 	"strconv"
 

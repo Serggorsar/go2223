@@ -11,7 +11,7 @@ import (
 	"unsafe"
 )
 
-// bytesToStr сорздаёт строку, указывающую на слайс байт, чтобы избежать копирования.
+// bytesToStr создаёт строку, указывающую на слайс байт, чтобы избежать копирования.
 //
 // Warning: the string returned by the function should be used with care, as the whole input data
 // chunk may be either blocked from being freed by GC because of a single string or the buffer.Data
